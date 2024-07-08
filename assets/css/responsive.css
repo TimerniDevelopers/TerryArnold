@@ -34,7 +34,7 @@
         font-size: 35px;
         line-height: 40px;
     }
-    .page-header-title br{
+    br{
         display: none;
     }
 }
