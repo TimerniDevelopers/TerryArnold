@@ -1122,6 +1122,12 @@ label {
 .main-header .nav-link:hover{
     color: #88d4ff;
 }
+.main-header .navbar-toggler {
+    border: 1px solid #fff;
+}
+.main-header .navbar-toggler .fa{
+    color: #fff;
+}
 .footer-logo img,
 .main-header img {
     max-width: 250px;
