@@ -30,4 +30,11 @@
         font-size: 17px;
         margin-bottom: 15px;
     }
+    .page-header-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .page-header-title br{
+        display: none;
+    }
 }
