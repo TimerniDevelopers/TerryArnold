@@ -39,71 +39,45 @@ $(document).ready(function($) {
     // Initiate the wowjs
     new WOW().init();
 
-		//testimonial-slider 
-		var $testimonialSlider = $(".testimonial-carousel");
-		$testimonialSlider.owlCarousel({
-			loop: false,
-			nav: true,
-			navText: [
-				'<i class="fas fa-chevron-left"></i>',
-				'<i class="fas fa-chevron-right"></i>',
-			],
-			dots: false,
-			autoplay: true,
-			smartSpeed: 1000,
-			center: true,
-			margin: 30,
-			responsive: {
-				0: {
-					items: 1,
-				},
-				768: {
-					items: 1,
-				},
-				992: {
-					items: 1,
-				},
-				1300: {
-					items: 1,
-				},
-	
+	$('.member-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		navText: [
+		'<i class="fa fa-angle-left"></i>',
+		'<i class="fa fa-angle-right"></i>',
+		],
+
+		dots: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1000: {
+				items: 1
 			}
-		});
-		$('.videos-icon').magnificPopup({
-			type: 'iframe',
-			iframe: {
-			  patterns: {
-				youtube: {
-				  index: 'youtube.com/',
-		  
-				  id: 'v=',
-				  src: 'http://www.youtube.com/embed/%id%?autoplay=1'
-				}
-		  
-			  },
-			  srcAction: 'iframe_src',
-			}
-		  });
-			 // student carousel
-    $(".student-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        center: true,
-        margin: 24,
-        dots: true,
-        loop: true,
-        nav : false,
-        responsive: {
-            0:{
-                items:1
+		}
+	});
+
+     // Magnific popup
+     $('.popup-youtube').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'https://www.youtube.com/',
+
+                    id: 'v=',
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                }
+
             },
-            768:{
-                items:2
-            },
-            992:{
-                items:3
-            }
+            srcAction: 'iframe_src',
         }
-    });
+	 });
+
 
 });
