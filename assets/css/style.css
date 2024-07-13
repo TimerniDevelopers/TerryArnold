@@ -1062,13 +1062,13 @@ label {
   .page-header-title{
     font-size: 40px;
     font-weight: 600;
-    line-height: 45px;
+    line-height: 50px;
   }
   .page-header {
     background-position: center center !important;
     background-repeat: no-repeat  !important;
     background-size: cover  !important;
-    padding: 50px 0px; 
+    padding: 80px 0px; 
 }
 .page-header .breadcrumb-item.active{
     color: #88d4ff; 
@@ -1511,6 +1511,52 @@ left: auto;
 }
 .popular-items:last-child{
     border-bottom: none;
+}
+
+.partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+}
+.partner-list li{
+    background-color: #88d4ff;
+    padding: 5px;
+    flex-basis: 19%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.faq .accordion-button {
+    background-color: #171717; 
+    color: #FFF;
+}
+.faq .accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+.faq .accordion-button:hover {
+    z-index: 2;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color:  #171717; 
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+.faq .accordion-body {
+    background: #000;
+}
+.accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nI2ZmZic+PHBhdGggZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMS42NDYgNC42NDZhLjUuNSAwIDAgMSAuNzA4IDBMOCAxMC4yOTNsNS42NDYtNS42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNiA2YS41LjUgMCAwIDEtLjcwOCAwbC02LTZhLjUuNSAwIDAgMSAwLS43MDh6Jy8+PC9zdmc+);
+}
+.accordion-button::after {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nI2ZmZic+PHBhdGggZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMS42NDYgNC42NDZhLjUuNSAwIDAgMSAuNzA4IDBMOCAxMC4yOTNsNS42NDYtNS42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNiA2YS41LjUgMCAwIDEtLjcwOCAwbC02LTZhLjUuNSAwIDAgMSAwLS43MDh6Jy8+PC9zdmc+);
+}
+.faq-page-header {
+    background: linear-gradient(rgba(24, 29, 56, .8), rgba(24, 29, 56, .8)), url(../img/faq.jpg);
 }
 /* @media (min-width: 1199px) and (max-width: 1367px) {} */
 
