@@ -38,3 +38,112 @@
         display: none;
     }
 }
+@media screen and (max-width: 991px) {
+    .success-wrapper {
+      height: 100%;
+      flex-direction: column;
+    }
+    .content-title h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .section-title h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 17px;
+    }
+    .banner-area h1 {
+        font-size: 32px;
+        line-height: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .success-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .banner-area h5 {
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+    .faq .accordion-button {
+        padding: 1rem 1rem;
+        font-size: 16px;
+    }
+    .faq .accordion-body {
+       padding: 1rem 1rem;
+       font-size: 14px;
+    }
+    .footer-area h5 {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    .page-header-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .page-header {
+        padding: 50px 0px;
+    }
+    .service-wrapper .content-title h3 span {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .blog-item h5 {
+        font-size: 16px;
+        padding-top: 5px;
+        margin-bottom: .55rem !important;
+    }
+    .blog-area .blog-wrapper .blog-overlay {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+        .banner-area h1 {
+        font-size: 28px;
+        line-height: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+        .section-title h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .content-title h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .success-content {
+        padding: 15PX;
+        width: 100%;
+        text-align: center;
+    }
+    .page-header-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .gets-page-header .col-lg-9.text-start,
+     .gets-page-header .col-lg-3.text-end{
+        text-align: center !important;
+    }
+    .gets-page-header  .page-header-title {
+       font-size: 22px;
+        line-height: 29px; 
+    }
+    .blog-area .pagination-lg .page-link {
+        font-size: 1rem;
+        line-height: 1;
+        padding: 0.75rem .75rem;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+        .page-header-title {
+        font-size: 23px;
+        line-height: 29px;
+    }
+}
