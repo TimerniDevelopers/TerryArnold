@@ -1216,7 +1216,7 @@ label {
     display: block !important;
 
 }
-.footer-area h5{
+.footer-area h2{
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -1520,6 +1520,7 @@ left: auto;
     gap: 1%;
     justify-content: center;
 }
+.partner-list .partner-list-item,
 .partner-list li{
     background-color: #88d4ff;
     padding: 5px;
